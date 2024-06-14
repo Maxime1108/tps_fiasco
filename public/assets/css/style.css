@@ -1,0 +1,257 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif; /* Ajout d'une police d'écriture' */
+  background-color: #111;
+  color: #fff;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/********************** PARTIE HEADER *********************/
+
+.header {
+  background-color: #000; /* Ajout d'un backgound-color */
+  padding: 20px 0;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo h1 {
+  font-family: "Georgia", serif; /* Ajout d'une police d'écriture' */
+  color: #fff;
+  font-size: 28px;
+  margin: 0;
+}
+
+.header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.header nav ul li {
+  margin-left: 20px;
+}
+
+.header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.header nav ul li a.reservation-button {
+  background-color: #ffdd00; /* Ajout d'un backgound-color */
+  color: #000;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/********************** FIN PARTIE HEADER *********************/
+
+.welcome {
+  background-image: url("../img/eggs.jpg"); /* Ajout de l'arrière-plan */
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 160px 0;
+}
+
+.welcome h2 {
+  font-family: "Georgia", serif; /* Ajout d'une police d'écriture' */
+  color: #ffdd00;
+  font-size: 24px;
+}
+
+.welcome h1 {
+  font-family: "Georgia", serif; /* Ajout d'une police d'écriture' */
+  color: #fff;
+  font-size: 50px;
+  margin: 10px 0;
+}
+
+.welcome p {
+  font-size: 18px;
+  color: #fff;
+}
+
+.discover,
+.tasteful,
+.menu,
+.chef,
+.reservation,
+.recipes {
+  padding: 50px 0;
+}
+
+.discover-content,
+.tasteful-content,
+.chef-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.discover-content img,
+.tasteful-content img,
+.chef-content img {
+  width: 45%;
+  border-radius: 10px;
+}
+
+.discover-content .text,
+.tasteful-content .text,
+.chef-content .text {
+  width: 50%;
+}
+
+.discover-content .text h3,
+.tasteful-content .text h3,
+.chef-content .text h3 {
+  font-family: "Georgia", serif; /* Ajout d'une police d'écriture' */
+  color: #ffdd00;
+  font-size: 24px;
+}
+
+.discover-content .text h2,
+.tasteful-content .text h2,
+.chef-content .text h2 {
+  font-family: "Georgia", serif; /* Ajout d'une police d'écriture' */
+  color: #fff;
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+.discover-content .text p,
+.tasteful-content .text p,
+.chef-content .text p {
+  font-size: 16px;
+  color: #ccc;
+}
+
+.discover-content .text a,
+.tasteful-content .text a,
+.chef-content .text a {
+  color: #ffdd00;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/********************** PARTIE MENU *********************/
+
+.menu .container {
+  text-align: center;
+}
+
+.menu h2 {
+  font-family: "Georgia", serif; /* Ajout d'une police d'écriture' */
+  color: #fff;
+  font-size: 30px;
+}
+
+.menu h3 {
+  font-family: "Georgia", serif; /* Ajout d'une police d'écriture' */
+  color: #ccc;
+  font-size: 20px;
+}
+
+.menu .categories a {
+  color: #ffdd00;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.menu-item {
+  width: 30%;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.menu-item h4 {
+  font-family: "Georgia", serif; /* Ajout d'une police d'écriture' */
+  color: #fff;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.menu-item p {
+  color: #ccc;
+  font-size: 14px;
+}
+
+.menu-item .price {
+  font-size: 20px;
+  color: #ffdd00;
+  font-weight: bold;
+}
+
+/********************** FIN PARTIE MENU *********************/
+
+/********************** PARTIE RESERVATION *********************/
+
+.reservation {
+  background-image: url("../img/reservation.jpg"); /* Ajout de l'arrière-plan */
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 200px 0;
+}
+
+.reservation h2 {
+  font-family: "Georgia", serif; /* Ajout d'une police d'écriture' */
+  color: #ffd900;
+  font-size: 30px;
+}
+
+.reservation h3 {
+  font-family: "Georgia", serif; /* Ajout d'une police d'écriture' */
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.reservation form {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.8); /* Ajout d'un fond noir avec opacité */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.reservation input,
+.reservation select {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px; /* Ajout d'un espace entre les champs */
+  margin-bottom: 10px; /* Ajout d'un espace en bas des champs */
+}
+
+.reservation button {
+  background-color: #ffdd00;
+  color: #000;
+  padding: 10px 20px;
+  font-size: 16;
+}
+
+/********************** FIN PARTIE RESERVATION *********************/
